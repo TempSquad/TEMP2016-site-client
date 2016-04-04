@@ -1,0 +1,12 @@
+{"mwForm":{"form":
+{"name":"Имя формы","name.placeholder":"Form title","description":"Описание"},
+"buttons":{"addPage":"Добавить страницу","moveDown":"Опустить","moveUp":"Поднять",
+"removePage":"Удалить","remove":"Удалить","addElement":"Добавить",
+"questionReady":"Готово","next":"Далее","back":"Назад","submit":"Подтвердить",
+"begin":"Начать","fold":"Свернуть","unfold":"Развернуть","edit":"Редактировать","clone":"Копировать",
+"view":"Вид"},"page":{"tab":{"heading":"Стр. {{page}} из {{allPages}}"},"elements":{"empty":"Пустая страница"},
+"pageWithNameCheckbox":"имя стр.","name":"Имя сраницы"},"pageFlow":{"afterPage":"Страница {{page}}:",
+"afterQuestionAnswer":"Вернуться назад","goToPage":"Перейти {{page.number}}",
+"goToNextPage":"Продолжить на след. странице","submitForm":"Подтвердить"},"elements":{"question":"Question",
+"image":"Изображение","paragraph":"Параграф"},"question":{"types":{"text":{"name":"Короткий текст"},
+"textarea":{"name":"Текст"},"radio":{"name":"Радио кнопка"},"checkbox":{"name":"Чекбокс"},"grid":{"name":"Grid"},"priority":{"name":"Приоритет"},"division":{"name":"Упорядочить"},"number":{"name":"Числовой"},"date":{"name":"Дата"},"datetime":{"name":"Время"},"time":{"name":"Время"},"email":{"name":"Email"},"range":{"name":"Удаленный"},"url":{"name":"URL"}},"text":"Текст вопроса","type":"Тип вопроса","required":"Обязательный","preview":{"text":"введите текст","textarea":"введите текст","otherAnswer":"Другой"},"division":{"quantity":"Количество","unit":"Обозначение","assignedSumLabel":"Assigned","fromRequiredLabel":"from required"},"priority":{"sorted":"","available":"Данные:","clickToAddItem":"Дабавить элемент"},"grid":{"rowLabel":"Строка {{row}}","clickToAddRow":"Добавить строку","columnLabel":"Колонка {{col}}","clickToAddColumn":"Добавить колонку"},"range":{"from":"Диапозон","to":"до"},"number":{"min":"Мин.","max":"Макс."},"orLabel":"or ","otherLabel":"Прочее: ","userAnswer":"Ответ","buttons":{"addOption":"Добавить настройку","addOther":"Добавить'"}},"image":{"selectImageButton":"Выбрать изображение"},"paragraph":{"placeholder":"Введите имя текста"},"confirmationPage":{"title":"Страница зевершения","customMessage":"Сообщение о завершении","defaultMessage":"Ваши ответы были сохранены","errorMessage":"Ошибка! Ваши ответы не были сохранены","pendingMessage":"Ваши ответы сохраняются..."}}}

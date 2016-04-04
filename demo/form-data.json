@@ -1,0 +1,350 @@
+{
+  "name": "Атомная отрасль",
+  "description": "Опрос на знание атомной отрасли",
+  "pages": [
+    {
+      "id": "b8107c034ded6bf430488ca30d524bed",
+      "number": 1,
+      "name": null,
+      "description": null,
+      "pageFlow": {
+        "nextPage": true,
+        "label": "mwForm.pageFlow.goToNextPage"
+      },
+      "elements": [
+        {
+          "id": "7180d9e3d0c341bb99c91c73d5b97351",
+          "orderNo": 1,
+          "type": "question",
+          "question": {
+            "id": "ed9a53e5ebc4fd4cdf84686743c0b939",
+            "text": "Перечислите несколько советских ученых, учавствовавших в Советском Атомном Проекте",
+            "type": "text",
+            "required": true,
+            "pageFlowModifier": false
+          }
+        },
+        {
+          "id": "3f215923f068d5355ce9dcc61aa340c7",
+          "orderNo": 2,
+          "type": "question",
+          "question": {
+            "id": "46d605c6b29161e49918733ea2c21b10",
+            "text": "Перечилите главные цели ГК 'Росатом'",
+            "type": "textarea",
+            "required": true,
+            "pageFlowModifier": false
+          }
+        },
+        {
+          "id": "2da74f344ce74b0c9c501f05dd27b94a",
+          "orderNo": 3,
+          "type": "question",
+          "question": {
+            "id": "16a37f04b1f2c4ed9ccad0f90c202f3e",
+            "text": "Сколько действующих блоков в настоящий момент на Ростовской АЭС?",
+            "type": "radio",
+            "required": true,
+            "offeredAnswers": [
+              {
+                "id": "c1860469d05cb0be1ef6c254809c207e",
+                "orderNo": 1,
+                "value": "1",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+			   {
+                "id": "c1860469d05cb0be1ef6c254809c208e",
+                "orderNo": 2,
+                "value": "2",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+			   {
+                "id": "c1860469d05cb0be1ef6c254809c209e",
+                "orderNo": 3,
+                "value": "3",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+			   {
+                "id": "c1860469d05cb0be1ef6c254809c200e",
+                "orderNo": 4,
+                "value": "4",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              }
+			  
+            ]
+
+          }
+        },
+        {
+          "id": "a720b9734f64a7fd728df4cd5d995117",
+          "orderNo": 4,
+          "type": "question",
+          "question": {
+            "id": "3ba201eb2562dca36a5257ef3ff2be2d",
+            "text": "Укажите атомные ледоколы ГК 'Росатом'",
+            "type": "checkbox",
+            "required": true,
+            "offeredAnswers": [
+              {
+                "id": "16eddc288f7e58b5c3407de778f933a1",
+                "orderNo": 1,
+                "value": "Таймыр",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+              {
+                "id": "567678e87b794541a9e6f7e1376b562c",
+                "orderNo": 2,
+                "value": "Вайгач",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+              {
+                "id": "1e27b677f96d2d08ce0fb0d5723607da",
+                "orderNo": 3,
+                "value": "Титан",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+              {
+                "id": "1e27b677f96d2d08ce0fb0d5723607da",
+                "orderNo": 3,
+                "value": "Бизон",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              }
+            ],
+            "pageFlowModifier": false
+
+          }
+        },
+        {
+          "id": "24490cf9c495cb33d4c8d2a0f813b817",
+          "orderNo": 5,
+          "type": "question",
+          "question": {
+            "id": "edb85ee7c9da14ffeb15bb9f8cfaffd3",
+            "text": "Существуют ли плавучие атомные станции у ГК 'Росатом'",
+            "type": "radio",
+            "required": true,
+            "offeredAnswers": [
+              {
+                "id": "68a49a4f13203098f0fc6a744c1fe704",
+                "orderNo": 1,
+                "value": "Да",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+              {
+                "id": "53e006974790df5099ab26e9f2ce9c06",
+                "orderNo": 2,
+                "value": "Нет",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "ee297f58ceec1470c9db35559409755c",
+          "orderNo": 6,
+          "type": "question",
+          "question": {
+            "id": "a7106ec0fba810a84899b8579f5fd924",
+            "text": "Верно ли утверждение ? - Совесткий Союз первым в мире провел испытание атомной бомбы",
+            "type": "radio",
+            "required": true,
+            "offeredAnswers": [
+              {
+                "id": "ae38733fc632753099f430b1c1ffcefc",
+                "orderNo": 1,
+                "value": "Да",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+              {
+                "id": "61a226f242d86522a49b786c654c4165",
+                "orderNo": 2,
+                "value": "Нет",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "namedPage": false
+    },
+    {
+      "id": "d7b158cc2aff4c00b3d452006d79368d",
+      "number": 2,
+      "name": null,
+      "description": null,
+      "pageFlow": {
+        "nextPage": true,
+        "label": "mwForm.pageFlow.goToNextPage"
+      },
+      "elements": [
+        {
+          "id": "82332304478a82ee69f2d60157930e0a",
+          "orderNo": 2,
+          "type": "question",
+          "question": {
+            "id": "dc640ed493ba5a00d4a44f3a216cfa34",
+            "text": "Расположите в хронологическом порядке:",
+            "type": "priority",
+            "required": true,
+            "priorityList": [
+              {
+                "id": "c389bfb386b59483c7592719d9968d35",
+                "orderNo": 1,
+                "value": "Постановление ГКО СССР № 2352сс «Об организации работ по урану»"
+              },
+              {
+                "id": "66a28c757482c280b30db318b5922201",
+                "orderNo": 2,
+                "value": "Запуск Манхэттенского проекта"
+              },
+              {
+                "id": "14629777a4bda0e1d40044429aaf63f2",
+                "orderNo": 3,
+                "value": "Начало Второй Мировой Войны"
+              },
+              {
+                "id": "14629777a4bda0e1d40044429aaf63f3",
+                "orderNo": 4,
+                "value": "Атомная бомбардировка Хиросимы и Нагасаки"
+              }
+            ],
+            "pageFlowModifier": false
+          }
+        }, 
+		
+		{
+          "id": "a720b9734f64a7fd728df4cd5d995117",
+          "orderNo": 4,
+          "type": "question",
+          "question": {
+            "id": "3ba201eb2562dca36a5257ef3ff2be2d",
+            "text": "Укажите российские атомные станции",
+            "type": "checkbox",
+            "required": true,
+            "offeredAnswers": [
+              {
+                "id": "16eddc288f7e58b5c3407de778f933a2",
+                "orderNo": 1,
+                "value": "Ростовская АЭС",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+              {
+                "id": "567678e87b794541a9e6f7e1376b5623",
+                "orderNo": 2,
+                "value": "Якутская АЭС",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+              {
+                "id": "1e27b677f96d2d08ce0fb0d5723607d4",
+                "orderNo": 3,
+                "value": "Краснодарская АЭС",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              },
+              {
+                "id": "1e27b677f96d2d08ce0fb0d5723607d5",
+                "orderNo": 3,
+                "value": "Ленинградская АЭС",
+                "pageFlow": {
+                  "nextPage": true,
+                  "label": "mwForm.pageFlow.goToNextPage"
+                }
+              }
+            ],
+            "pageFlowModifier": false
+
+          }
+        }
+      ],
+      "namedPage": false
+    },
+    {
+      "id": "5d9fc08eaac5739f574db0e5b86a6a36",
+      "number": 3,
+      "description": null,
+      "pageFlow": {
+        "nextPage": true,
+        "label": "mwForm.pageFlow.goToNextPage"
+      },
+      "elements": [
+        {
+          "id": "99f0e2587c29cde3abb2ab2076fc375c",
+          "orderNo": 1,
+          "type": "paragraph",
+          "paragraph": {
+            "id": "12448073a8702376af0b427b63022926",
+            "html": "Какая из российских АЭС изображена на фотографии ?"
+          }
+        },
+        {
+          "id": "2d9145a0b749ca85959268737c90029c",
+          "orderNo": 2,
+          "type": "image",
+          "image": {
+            "id": "e94d4dcdbc45d90d0561116518e13b77",
+            "align": "center",
+            "src": "rostaes.png"
+            
+          }
+        },
+        {
+          "id": "1dfa4dc8242f7b98b5449d380fee1785",
+          "orderNo": 3,
+          "type": "question",
+          "question": {
+            "id": "7d8826e84a398532fbe78be646214eab",
+            "text": "Вариант ответа:",
+            "type": "textarea",
+            "required": true,
+            "pageFlowModifier": false
+          }
+        }
+      ],
+      "namedPage": true
+    }
+  ]
+}
